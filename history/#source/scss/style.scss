@@ -1,0 +1,37 @@
+.wrapper{
+    .filterGroup{
+        display: flex;
+        margin-top: 44px;
+        margin-left: 262px;
+        .filter{
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 25px;
+        }
+    }
+    .linkHistory{
+        display: flex;
+        align-self: flex-start;
+        margin-top: 113px;
+        .historyImg{
+            height: 226px;
+            margin-left: 31px;
+        }
+        .textHistory{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 135px;
+            max-width: 769px;
+            .titleHistory{
+                font-size: 30px;
+                font-weight: 500;
+                margin-bottom: 12px;
+            }
+            .descriptionHistory{
+                font-size: 22px;
+            }
+        }
+    }
+}

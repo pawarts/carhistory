@@ -1,0 +1,94 @@
+.wrapper{
+    .mainScreen{
+        .title{
+            max-width: 250px;
+            margin-top: 164px;
+            margin-left: 19vh;
+            .brandName{
+                font-size: 48px;
+                font-weight: 500;
+            }
+            .catchword{
+                width: 250px;
+                font-size: 20px;
+            }
+            .btn{
+                display: inline-block;
+                margin-top: 20px;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 33px;
+                border-radius: 49px;
+                border: 1px solid #000;
+                .btnItem{
+                    display: flex;
+                    padding-left: 33px;
+                    padding-top: 8;
+                    .more{
+                        margin-right: 20px;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .btn:hover{
+                .arrow{
+                    color:#ffc107;
+                    animation-name: arrow;
+                    animation-duration: 0.5s;
+                    animation-direction: normal;
+                }
+                cursor: pointer;
+            }
+        }
+        .titleCar{
+            width: 867px;
+            position: relative;
+            margin-bottom: -350px;
+            left: 69vw;
+            top: -160px;
+        }
+        @keyframes arrow {
+           25%{transform: translateX(5px);}
+           50%{transform: translateX(10px);}
+           75%{transform: translateX(-10px);}
+           100%{transform: translateX(-5px);}    
+        }
+    }
+    .sportScreen{
+        position: relative;
+        z-index: 5;
+        background: #ffc107;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .history{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 148px;
+            .historyImg{
+                width: 500px;
+            }
+            .announce{
+                margin-left: 122px;
+                .historyTitle{
+                    font-size: 27px;
+                    font-weight: 500;
+                    margin-bottom: 25px;
+                }
+                .historyReview{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .reverse{
+        .history{
+            margin-right: 98px;
+            .announce{
+                margin-left: 0;
+                margin-right: 122px;
+            }
+        }
+    }
+}
